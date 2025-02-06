@@ -39,7 +39,8 @@ const App = () => {
         <Route path="/settings" element={<SettingsPage />} />
         <Route path="/profile" element={authUser ? <ProfilePage />: <Navigate to="/login"/>} />
       </Routes>
-      
+      <elevenlabs-convai agent-id="PC8hhogAN95Ge9OdWhLl"></elevenlabs-convai>
+      <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
 
 
       <Toaster />
